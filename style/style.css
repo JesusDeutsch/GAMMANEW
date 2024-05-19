@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.micro-5-charted-regular {
+  font-size: 300px;
+}
+
+.tac-one-regular {
+  font-family: "Tac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-slab- {
+  font-family: "Roboto Slab", serif;
+  border-right: #2f2f2f solid;
+}
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 300px;
+  font-style: normal;
+  border-right: #2f2f2f solid;
+}
+.danfo- {
+  font-family: "Danfo", serif;
+  border-right: #2f2f2f solid;
+}
+.teko-text {
+  font-family: "Teko", sans-serif;
+  border-right: #2f2f2f solid;
+}
+.teko-unicorn {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border-right: #2f2f2f solid;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  border-right: #2f2f2f solid;
+  padding-bottom: 50px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border-right: #2f2f2f solid;
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-size: 80px;
+  border-right: #2f2f2f solid;
+}
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-right: #2f2f2f solid;
+  border-right: #2f2f2f solid;
+}
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-size: 70px;
+  border-right: #2f2f2f solid;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 400px);
+  margin: 0 auto;
+  padding: 50px;
+  column-gap: 25px;
+  justify-content: center;
+  justify-items: center;
+}
+
+div {
+  padding: 50px 0;
+  background-color: #f9f7f1;
+  color: #2f2f2f;
+  text-align: center;
+  gap: 10px;
+}
+
+.old-picture {
+  height: 300px;
+  width: 300px;
+  filter: grayscale(100%);
+  webkit-filter: grayscale(100%);
+  moz-filter: grayscale(100%);
+  ms-filter: grayscale(100%);
+  o-filter: grayscale(100%);
+}
+
+#header {
+  grid-column: 1/7;
+  grid-row: 1/2;
+}
+
+#date {
+  grid-column: 1/7;
+  grid-row: 2/3;
+  width: 2000px;
+  font-size: 40px;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+
+#exorcist {
+  grid-column: 1/2;
+  grid-row: 3/7;
+}
+
+#MonkeyInPakistan {
+  grid-column: 2/3;
+  grid-row: 3/7;
+}
+
+#brazilianChildren {
+  grid-column: 3/4;
+  grid-row: 3/7;
+}
+
+#fakePlant {
+  grid-column: 4/5;
+  grid-row: 3/7;
+}
+
+#defecate {
+  grid-column: 5/6;
+  grid-row: 3/7;
+}
+
+p {
+  font-size: 25px;
+  padding: 15px;
+  border-right: #2f2f2f solid;
+}
